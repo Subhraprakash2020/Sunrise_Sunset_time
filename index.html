@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+
+    <div class="content">
+
+        <div class="header">
+
+            <h1>SUN<span style="color: rgba(0, 0, 0, 0.5);">RISE</span></h1>
+            <!-- <img class="img1" src="image/cloud-sun-fill.svg"> -->
+        </div>
+        <div class="center">
+            <div class="input-country">
+                <select id="scountry" name="country">
+                    <option value="lat=-33.42004148&long=151.3000048">Austrelia</option>
+                    <option value="lat=47.51669707&long=9.7667015888">Austria</option>
+                    <option value="lat=15.491997&long=73.81800065">India</option>
+                </select>
+            </div>
+            <div class="show_news">
+                <input type="submit" id="search" value="search">
+            </div>
+            <div class="all_news">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- var url = 'https://api.sunrise-sunset.org/json?' + $('#scountry').val() + ''; -->
+    <!-- var url = 'https://api.ipgeolocation.io/astronomy?apiKey=8b68d178ff0b460c85c987102df9a8eb&' + $('#scountry').val + ''; -->
+    <!-- https://api.ipgeolocation.io/astronomy?apiKey=8b68d178ff0b460c85c987102df9a8eb&lat=15.491997&long=73.81800065 -->
+
+    <script src="js/coustom.js"></script>
+</body>
+
+</html>
